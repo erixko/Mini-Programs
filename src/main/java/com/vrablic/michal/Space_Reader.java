@@ -3,7 +3,7 @@ package com.vrablic.michal;
 import java.util.Scanner;
 
 public class Space_Reader {
-    static int num = 0;
+    private static int num = 0;
     public static int read_space(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your text: ");
