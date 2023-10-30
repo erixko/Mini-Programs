@@ -21,5 +21,6 @@ public class GuessTheNumber {
             }
         }while (user_number != computer_number);
         System.out.println("You guessed the number: " + user_number + " in " + try_number + " guesses");
+
     }
 }
