@@ -8,7 +8,7 @@ public class Main {
         //Gues the number hra
         GuessTheNumber.guessTheNumber();
 
-
+        //TODO: opilec hra
 
 
     }
