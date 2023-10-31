@@ -1,15 +1,20 @@
 package com.vrablic.michal;
+
+
 public class Main {
     public static void main(String[] args) throws InterruptedException {
 
         //Space-Reader spocita pocet medzir v Stringu
-        //System.out.println("Pocet medzier vo vasom texte: " + Space_Reader.read_space());
+        System.out.println("Pocet medzier vo vasom texte: " + Space_Reader.read_space());
 
-        //Gues the number hra
-        //GuessTheNumber.guessTheNumber();
+        //Guess the number hra
+        GuessTheNumber.guessTheNumber();
 
-        //Opilec hra
+        //Drunk man game
         Opilec.opilec(10 , 100);
+        Frame.TTT();
+
+
 
     }
 }

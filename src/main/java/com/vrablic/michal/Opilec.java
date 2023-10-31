@@ -1,6 +1,6 @@
 package com.vrablic.michal;
 
-public class Opilec {
+public class Opilec{
 
     public static void opilec(int Width , int Distance) throws InterruptedException {
 
@@ -9,7 +9,7 @@ public class Opilec {
 
 
         do{
-            System.out.println("Krcma> " + "*".repeat(drunk_man_pos_left) + "#" + "*".repeat(drunk_man_pos_right) + " <Domov");
+            System.out.println("Krcma> " + "*".repeat(drunk_man_pos_left) + "#" + "*".repeat(drunk_man_pos_right) + " <Domov" + drunk_man_pos_left + drunk_man_pos_right);
             int randomChoice = (Math.random() < 0.5) ? 0 : 1;
             if(randomChoice == 0) {
                 drunk_man_pos_left--;
@@ -28,7 +28,7 @@ public class Opilec {
                 System.out.println("Opicel sa dostal domov");
                 return;
             }
-            Thread.sleep(400);
+            Thread.sleep(100);
 
             Distance--;
         }while(Distance > 0);

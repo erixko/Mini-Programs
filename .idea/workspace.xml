@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4660cc6-0211-4951-9226-ec3037937adf" name="Changes" comment=" Version 1.0.1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vrablic/michal/Opilec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vrablic/michal/Frame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vrablic/michal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vrablic/michal/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vrablic/michal/Opilec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vrablic/michal/Opilec.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,8 @@
       <option name="presentableId" value="Default" />
       <updated>1698653140458</updated>
       <workItem from="1698653141479" duration="6833000" />
-      <workItem from="1698662130149" duration="426000" />
+      <workItem from="1698662130149" duration="2167000" />
+      <workItem from="1698677106104" duration="8777000" />
     </task>
     <task id="LOCAL-00001" summary=" Version 1.0.0">
       <option name="closed" value="true" />
@@ -110,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698656752676</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=" Version 1.0.1">
+      <option name="closed" value="true" />
+      <created>1698662923798</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698662923798</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
