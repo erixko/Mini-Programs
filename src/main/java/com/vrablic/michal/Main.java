@@ -5,14 +5,14 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
 
         //Space-Reader spocita pocet medzir v Stringu
-        System.out.println("Pocet medzier vo vasom texte: " + Space_Reader.read_space());
+        //System.out.println("Pocet medzier vo vasom texte: " + Space_Reader.read_space());
 
         //Guess the number hra
-        GuessTheNumber.guessTheNumber();
+        //GuessTheNumber.guessTheNumber();
 
         //Drunk man game
-        Opilec.opilec(10 , 100);
-        Frame.TTT();
+        //Opilec.opilec(10 , 100);
+        TicTacToe.Game();
 
 
 
