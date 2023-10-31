@@ -12,7 +12,9 @@ public class Main {
 
         //Drunk man game
         //Opilec.opilec(10 , 100);
-        TicTacToe.Game();
+
+        //NOT DONE
+        //TicTacToe.Game();
 
 
 

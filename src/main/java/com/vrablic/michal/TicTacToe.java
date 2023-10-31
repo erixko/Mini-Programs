@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 
 public class TicTacToe {
 
+
     public static void Game() {
         JFrame frame = new JFrame("");
         frame.setLayout(new GridLayout(3, 3));
@@ -23,8 +24,10 @@ public class TicTacToe {
 
             buttons[i].addActionListener(new ActionListener() {
 
+
                 @Override
                 public void actionPerformed(ActionEvent e) {
+                    gameControl();
                     //System.out.println("Button ID: " + buttonID);
                     if(move[0] == 1){
                         buttons[buttonID].setText("X");
@@ -34,7 +37,7 @@ public class TicTacToe {
                         move[0] = 1;
                     }
                     buttons[buttonID].setEnabled(false);
-                    gameControl();
+
                 }
                 public void gameControl(){
                     for (int i = 0; i < buttons.length; i++) {
